@@ -1,0 +1,14 @@
+%% -*- mode: erlang -*-
+
+{application, maxwell_protocol,
+  [
+    {description, "Maxwell protocol implementation for elang."},
+    {vsn, "1"},
+    {registered, []},
+    {applications, [
+      kernel,
+      stdlib
+    ]},
+    {env, []}
+  ]
+}.
