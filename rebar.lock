@@ -1,0 +1,4 @@
+[{<<"gpb">>,
+  {git,"https://github.com/tomas-abrahamsson/gpb.git",
+       {ref,"bb923c0caa35f72d027902f06aa1506a4dc99152"}},
+  0}].
