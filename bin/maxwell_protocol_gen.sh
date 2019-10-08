@@ -14,6 +14,7 @@ if [[ ${root_dir} =~ (.*)_build.*$ ]]; then
     root_dir=${BASH_REMATCH[1]};
 fi
 mkdir -p include src
+chmod a+x _build/default/lib/gpb/bin/protoc-erl
 ${root_dir}/_build/default/lib/gpb/bin/protoc-erl \
   -Iproto \
   -o-erl src \
