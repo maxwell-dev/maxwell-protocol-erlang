@@ -10,5 +10,3 @@ rel/example_project
 .rebar
 _build
 proto
-src/*.erl
-include/*
